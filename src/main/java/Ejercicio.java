@@ -176,6 +176,7 @@ public class Ejercicio {
         return false;
     }
 
+
     public static String[][]  cargarMatriz(String entradasEvento[][], String nombre, String edad, String entrada, String invitados, String ingresado){
         for(int i = 0; i < entradasEvento.length; i++){
             if (entradasEvento[i][0] == null){
